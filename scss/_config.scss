@@ -35,6 +35,16 @@ $background-opacity: 0.5;
   }
 }
 
+//Set Text Color
+//Takes in the color and if the lightness of the color is greater that 40 then we use black.
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
 //Mixin for Media Queries
 
 //content is a space holder
