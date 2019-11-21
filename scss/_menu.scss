@@ -43,7 +43,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 1;
   visibility: hidden;
 
   &.show {
@@ -89,9 +89,10 @@
 
     .portrait {
       width: 250px;
-      height: 250px;
-      background: url("../img/portrait.jpb");
-      border-radius: 50%;
+      height: 370px;
+      background: url("/dist/css/portfolioImage.jpg");
+      background-size: cover;
+      border-radius: 15%;
       border: solid 3px $secondary-color;
     }
   }
