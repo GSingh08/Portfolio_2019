@@ -54,7 +54,11 @@
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
       width: 250px;
-      height: 370px; }
+      height: 370px;
+      background: url("/dist/img/portfolioImage.jpg");
+      background-size: cover;
+      border-radius: 15%;
+      border: solid 3px #eece1a; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.3s ease-out; }
